@@ -1,0 +1,39 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.home {
+	background: #05020f8a;
+	background-repeat: repeat;
+}
+
+.btn-grad {
+	background-image: linear-gradient(
+		to right,
+		#2b5876 0%,
+		#4e4376 51%,
+		#2b5876 100%
+	);
+	margin: 10px;
+	padding: 15px 45px;
+	text-align: center;
+	text-transform: uppercase;
+	transition: 0.5s;
+	background-size: 200% auto;
+	color: white;
+	box-shadow: 0 0 20px #eee;
+	border-radius: 10px;
+	display: block;
+	font-weight: 700;
+}
+
+.btn-grad:hover {
+	background-position: right center; /* change the direction of the change here */
+	color: rgb(238, 26, 26);
+	font-weight: 700;
+	text-decoration: none;
+}
+
+#sticky-navbar {
+	backdrop-filter: blur(15px);
+}
